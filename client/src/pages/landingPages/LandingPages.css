@@ -1,0 +1,123 @@
+.landingPage {
+  background-color: rgba(255, 255, 255, 0.703);
+  height: 100%;
+}
+.content {
+  height: 150%;
+  background-color: rgb(60, 60, 64);
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #333;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #f2f2f2;
+}
+
+/* Styles pour la section des services */
+.services {
+  background-color: #26ff00;
+  padding: 2rem;
+}
+
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services li {
+  flex-basis: calc(33.33% - 1rem);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.services li i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+/* Style pour la section hero */
+.hero {
+  background-image: url("https://example.com/hero-background.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background-color: #ff9500;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #d17f00;
+}
+
+/* Style pour la section services */
+.services {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+  
+.services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services li {
+  margin: 20px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.services li i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.paragraph{
+
+  display: flex ;
+  
+  justify-content: center;
+}

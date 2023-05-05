@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+
+}
+.hey{
+  background-color: #00203F !important;
+}
+img{
+    border-radius: 20px;
+    border: black  outset
+}
+.topBars{
+    display: flex !important ;
+    justify-content: space-between;
+    flex-direction: row;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.authentifications{
+position: relative;
+font-size: 40px;
+color: #000000;
+text-decoration: none;
+cursor: pointer;
+padding-bottom: 8px ;
+}
+.authentifications::before{
+    content:"";
+    position: absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 0;
+    background-color: red;
+    border-radius: 50px;
+    transition:  0.3s ease;
+  
+}
+.authentifications:hover::before{
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.calendar {
+  transform: scale(0.7); /* adjust the scale as needed */
+  transform-origin: left top; /* set the origin point to the top left corner */
+  margin-top: 3rem;
+}
+.calendar__day {
+  color: red;
+}
+.FullCs {
+  display: flex;
+}
+.Cards {
+  margin-right: 3rem;
+  margin-top: 3rem;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 10px !important;
+
+}

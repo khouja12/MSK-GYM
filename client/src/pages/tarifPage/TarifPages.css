@@ -1,0 +1,32 @@
+.box {
+  border-radius: 12%;
+  text-align: center;
+  justify-content: space-around !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxs {
+  justify-content: space-around !important;
+  flex-direction: row !important;
+  padding: 5%;
+}
+
+.aa {
+  font-size: medium;
+}
+
+.b2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.b2 span {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.sbtn {
+  margin: 2px 70px !important;
+}

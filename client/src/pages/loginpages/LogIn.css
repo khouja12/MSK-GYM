@@ -1,0 +1,35 @@
+.cnx {
+  cursor: pointer;
+  margin-top: 1.6rem;
+
+  position: relative;
+  font-weight: 600;
+}
+.cnx::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 6px;
+  width: 0;
+  background: #adf0d1;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.cnx:hover::before {
+  width: 100%;
+}
+
+
+.inscri-log {
+  color: #00203F !important;
+  justify-content: start !important;
+  margin-right: 50% !important;
+}
+.mdpo {
+  color: inherit !important;
+}
+
+.cnx1 {
+  display: flex ;
+  justify-content: center;
+}
